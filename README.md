@@ -1,0 +1,1 @@
+This repository showcases a subtle data race bug in Rust involving multiple mutable references to the same variable. The code appears functional in the simple example but can result in unexpected or incorrect results in more complex concurrent or multi-threaded situations.  The solution demonstrates how to refactor the code to avoid the issue.
